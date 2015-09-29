@@ -1,5 +1,4 @@
 #include <vector>
-#include <iostream>
 
 using namespace std;
 
@@ -28,23 +27,4 @@ int findMissingNumber(vector<int> list)
 	int expected = ((max * (max + 1)) / 2) - ((min * (min + 1)) / 2) + min;
 
 	return expected - sum;
-}
-
-int main () 
-{
-
-	int length;
-	cin >> length;
-
-	vector<int> list;
-
-	for (int i = 0; i < length; i++) 
-	{
-		int temp;
-		cin >> temp;
-		list.push_back(temp);
-	}
-
-	cout << "Missing Number: " << findMissingNumber(list) << endl;
-
 }
