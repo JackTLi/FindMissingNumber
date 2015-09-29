@@ -1,5 +1,5 @@
 # FindMissingNumber
-Given a list of consecutive numbers that is missing one, find the missing number
+Given a list of consecutive numbers (In any order) that is missing one, find the missing number
 
 This solutions works in O(n) time.
 
